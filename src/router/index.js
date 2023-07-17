@@ -19,6 +19,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/pera",
+    name: "pera",
+    component: () =>
+      import(/* webpackChunkName: "pera" */ "../views/PeraView.vue"),
+  },
 ];
 
 const router = new VueRouter({

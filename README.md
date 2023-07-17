@@ -1,4 +1,4 @@
-# vue-tutorial
+# vue-simple-app
 
 ## Project setup
 ```
